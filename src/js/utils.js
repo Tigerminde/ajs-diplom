@@ -15,7 +15,7 @@ export function calcHealthLevel(health) {
     return 'critical';
   }
 
-  if (health < 50) {
+  if (health < 100) {
     return 'normal';
   }
 
